@@ -13,16 +13,13 @@
     initComponent: function() {
 
         Ext.apply(this, {
-            dockedItems: [
-                {
-                    xtype: 'toolbar',
-                    dock : 'top',
-                    title: '{name}'
-                }
-            ]
+            dockedItems: [: 'toolbar',
+                dock : 'top',
+                title: '{name}'
+            }]
         });
 
-         {name}.Viewport.superclass.initComponent.apply(this, arguments);
+        {name}.Viewport.superclass.initComponent.apply(this, arguments);
     }
 
 });
