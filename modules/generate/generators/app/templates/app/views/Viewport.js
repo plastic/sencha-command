@@ -13,7 +13,8 @@
     initComponent: function() {
 
         Ext.apply(this, {
-            dockedItems: [: 'toolbar',
+            dockedItems: [{
+                xtype: 'toolbar',
                 dock : 'top',
                 title: '{name}'
             }]
