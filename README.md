@@ -2,6 +2,8 @@
 
 Sencha Command is a set of utilities that helps automate many parts of project development
 
+Sencha Touch version: 1.0.1a
+
 ## Generators
 
 ### Applications
